@@ -1,0 +1,131 @@
+#root {
+ 
+  margin: 0 auto;
+  padding: 0 rem;
+  height:100%;
+  width:100%
+}
+
+
+
+
+.game-summary {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin-top: 50px;
+}
+
+.linkStyle {
+  font-size: 18px; /* اندازه فونت لینک‌ها */
+  text-decoration: none; /* حذف خط زیرین لینک */
+  transition: color 0.3s; /* افکت انتقال رنگ هنگام تغییر حالت */
+  padding: 10px; /* فاصله داخلی برای زیبایی بیشتر */
+  display: inline-block; /* نمایش به صورت بلوکی برای اعمال padding و margin */
+  margin: 5px; /* فاصله بیرونی برای جداسازی لینک‌ها از یکدیگر */
+  border-radius: 5px; /* گرد کردن گوشه‌های لینک */
+  background-color: #17a2b8; /* رنگ پس‌زمینه لینک‌ها */
+  color: #212529; /* رنگ فونت لینک‌ها به طوسی پررنگ */
+  text-align: center; /* تراز متن در مرکز */
+}
+
+
+.linkStyle:hover, .linkStyle:focus {
+  color: #cceeff; /* رنگ لینک‌ها هنگام قرار گرفتن موس روی آن‌ها یا فوکوس */
+  text-decoration: underline; /* اضافه کردن خط زیرین به هنگام هاور یا فوکوس */
+  background-color: #48cae4; /* تغییر رنگ پس‌زمینه به رنگ روشن‌تر */
+}
+
+.score-display {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 167px;
+}
+
+.body{
+  display: flex;            /* فعال کردن فلکس باکس */
+  justify-content: center;  /* تراز کردن المان‌ها در مرکز افقی */
+  align-items: center;      /* تراز کردن المان‌ها در مرکز عمودی */
+  width: 100%;              /* اشغال 100% عرض والد */
+  height: 100%; 
+  padding: 5cm;
+}
+.headerStyle{
+  background-color: #17a2b8; 
+  width: 100%; /* تنظیم عرض به 100% صفحه */
+  font-size: 1.2em;
+  padding: 20px 0;
+  margin: 5px;
+  display: flex; /* استفاده از فلکس برای تراز کردن عناصر */
+  align-items: center;
+  min-height: 97px;
+}
+.loginStyle {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  
+}
+  
+.headerDropDown #dropdown-basic-button{
+  background-color: white !important;
+  color: black !important;
+  border: none;
+  margin-left: 8px;
+}
+.ResultScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10px;
+  margin: 20 auto;
+  background-color: #d9edf7;
+  color: #31708f;
+  border-color: #bce8f1;
+  
+}
+.table-responsive .column-lines th, 
+.table-responsive .column-lines td {
+  border-right: 2px solid black; /* تغییر رنگ و ضخامت خط */
+}
+
+.table-responsive .column-lines tr th:last-child, 
+.table-responsive .column-lines tr td:last-last-child {
+  border-right: none; /* جلوگیری از نمایش خط در ستون آخر */
+}
+.btnStyle {
+  display: flex;
+  justify-content: center;
+  
+ 
+
+}
+.btnStyle .btn {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  font-size: 20px;
+ 
+  width: 100px;
+ 
+  font-size: 18px; /* اندازه فونت لینک‌ها */
+  text-decoration: none; /* حذف خط زیرین لینک */
+  transition: color 0.3s; /* افکت انتقال رنگ هنگام تغییر حالت */
+  padding: 10px; /* فاصله داخلی برای زیبایی بیشتر */
+  display: inline-block; /* نمایش به صورت بلوکی برای اعمال padding و margin */
+  margin: 20px; /* فاصله بیرونی برای جداسازی لینک‌ها از یکدیگر */
+  border-radius: 5px; /* گرد کردن گوشه‌های لینک */
+  background-color: #17a2b8; /* رنگ پس‌زمینه لینک‌ها */
+  color: #212529; /* رنگ فونت لینک‌ها به طوسی پررنگ */
+  text-align: center; /* تراز متن در مرکز */
+}
+.commentStyle{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
