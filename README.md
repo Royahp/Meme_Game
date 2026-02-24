@@ -2,7 +2,7 @@
 
 # Exam #N: "Meme Game"
 
-## Student: s329578 Hosseinpour Roya
+## Student:Hosseinpour Roya
 
 ## React Client Application Routes
 
